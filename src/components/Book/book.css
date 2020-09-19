@@ -1,0 +1,45 @@
+.book {
+    font-family: 'Libre Baskerville', serif;
+
+    color: var(--background-color);
+
+    background-color: var(--logo-color);
+
+    max-width: 300px;
+    max-height: 200px;
+    
+    width: 300px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+
+    margin: 15px;
+
+    border-radius: 4px;
+    box-shadow: 0 0 20px 2px #2b1e0e;
+
+    font-weight: bold;
+}
+.book .header {
+    margin: 10px 0;
+}
+
+.book .footer{
+    margin: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.footer .buttons{
+    display: flex;
+}
+
+
+

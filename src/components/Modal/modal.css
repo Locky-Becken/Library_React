@@ -1,0 +1,110 @@
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.618);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+}
+
+.hide{
+    display: none;
+}
+
+.modal-container form{
+    background-color: var(--logo-color);
+    width: 400px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 4px;
+}
+
+.modal-container form .form-header{
+    display: flex;
+
+    padding: 5px 20px;
+
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.439);
+
+}
+
+.modal-container form label{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkB {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container form label input{
+    width: 100%;
+    height: 30px;
+
+    border: 1px solid orange;
+    border-radius: 4px;
+
+    outline: none;
+}
+
+.modal-container form .form-footer{
+    display: flex;
+    align-items: center;
+}
+
+.modal-container form .form-footer label{
+    width: 70%;
+}
+
+.form-footer div{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+
+.close {
+    cursor: pointer;
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.modal-container button{
+    padding: 10px;
+    border-radius: 4px;
+
+    border: 1px solid orange;
+
+    background-color: var(--background-color);
+
+    color: var(--logo-color);
+
+    margin-top: 20px;
+    align-self: center;
+    width: 80%;
+
+    font-family: 'Libre Baskerville', serif;
+}
+
+input{
+    font-size: 18px;
+}
+
+p{
+    cursor: pointer;
+}
